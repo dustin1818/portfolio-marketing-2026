@@ -1,0 +1,226 @@
+body.dark-mode {
+  --bg-base: #0d1118;
+  --surface: #111722;
+  --surface-soft: #151d2a;
+  color: #e9edf7;
+}
+
+body.dark-mode #logo {
+  color: #ff5d8e;
+}
+
+body.dark-mode #navigation a {
+  color: rgba(239, 243, 252, 0.95);
+  background: transparent !important;
+}
+
+body.dark-mode #navigation a.active-nav,
+body.dark-mode #navigation a:hover {
+  color: rgba(239, 243, 252, 0.95);
+  background: transparent !important;
+  border-bottom: 2px solid var(--primary-color) !important;
+}
+
+body.dark-mode header.is-scrolled #navigation a {
+  color: rgba(239, 243, 252, 0.95);
+}
+
+body.dark-mode #home {
+  background:
+    radial-gradient(
+      circle at 80% 16%,
+      rgba(255, 44, 90, 0.16),
+      transparent 38%
+    ),
+    linear-gradient(180deg, #040910 0%, #0a1220 100%);
+}
+
+body.dark-mode #about h1 {
+  color: #f4f7fc;
+}
+
+body.dark-mode .hero-float-card strong {
+  color: #eef3ff;
+}
+
+body.dark-mode #home .btn_one {
+  background: #101826;
+  color: #f1f5ff;
+  border-color: var(--primary-color);
+}
+
+body.dark-mode #home .btn_one:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+body.dark-mode .contact-form .btn_one {
+  background: #101826;
+  color: #f1f5ff;
+  border-color: var(--primary-color);
+}
+
+body.dark-mode .contact-form .btn_one:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+body.dark-mode #work,
+body.dark-mode #experience,
+body.dark-mode #bio,
+body.dark-mode #contact {
+  background: var(--surface);
+}
+
+body.dark-mode .projects-carousel {
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(255, 44, 90, 0.18),
+      transparent 34%
+    ),
+    linear-gradient(180deg, rgba(20, 28, 41, 0.98), rgba(15, 22, 33, 0.98));
+  border-color: rgba(255, 44, 90, 0.22);
+  box-shadow:
+    0 24px 44px rgba(0, 0, 0, 0.28),
+    0 14px 30px rgba(255, 44, 90, 0.1);
+}
+
+body.dark-mode .projects-photos {
+  background: #161d29;
+  border-color: rgba(255, 44, 90, 0.18);
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.22);
+}
+
+body.dark-mode .projects-photos:hover {
+  border-color: rgba(255, 44, 90, 0.34);
+  box-shadow:
+    0 22px 36px rgba(0, 0, 0, 0.28),
+    0 12px 24px rgba(255, 44, 90, 0.16);
+}
+
+body.dark-mode .carousel-btn {
+  background: rgba(20, 27, 39, 0.94);
+  border-color: rgba(255, 44, 90, 0.3);
+  color: #ff7ea8;
+  box-shadow: 0 16px 26px rgba(0, 0, 0, 0.22);
+}
+
+body.dark-mode .carousel-btn:hover {
+  background: var(--primary-color);
+  color: var(--white);
+  box-shadow: 0 12px 22px rgba(255, 44, 90, 0.24);
+}
+
+body.dark-mode .carousel-btn:disabled {
+  background: rgba(19, 25, 37, 0.82);
+  color: rgba(255, 126, 168, 0.4);
+}
+
+body.dark-mode .carousel-dot {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+body.dark-mode .carousel-dot.active {
+  background: var(--primary-color);
+}
+
+body.dark-mode .project-cta {
+  background: rgba(17, 24, 35, 0.62);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.22);
+}
+
+body.dark-mode .project-cta:hover {
+  background: rgba(255, 44, 90, 0.88);
+  border-color: rgba(255, 255, 255, 0.34);
+}
+
+body.dark-mode .projects-carousel.is-static-layout {
+  background: transparent;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+body.dark-mode .timeline-content,
+body.dark-mode .about-shell,
+body.dark-mode .contact-shell,
+body.dark-mode .about-card,
+body.dark-mode .contact-card,
+body.dark-mode .hero-float-card {
+  background: #161d29;
+  border-color: rgba(255, 44, 90, 0.25);
+  color: #e9edf7;
+}
+
+body.dark-mode .timeline-content h2,
+body.dark-mode .timeline-points li,
+body.dark-mode .about-story p,
+body.dark-mode .about-lead,
+body.dark-mode .contact-item strong,
+body.dark-mode .contact-lead {
+  color: #e9edf7;
+}
+
+body.dark-mode .contact-item,
+body.dark-mode .about-stat {
+  background: #1c2432;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background: #111722;
+  border-color: rgba(255, 44, 90, 0.34);
+  color: #e9edf7;
+}
+
+body.dark-mode .theme-toggle,
+body.dark-mode .menu-toggle {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 44, 90, 0.45);
+  color: #ff6d9a;
+}
+
+body.dark-mode .chatbot-shell {
+  color: #343746;
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(255, 44, 90, 0.18),
+      transparent 38%
+    ),
+    #fff;
+}
+
+body.dark-mode .chatbot-header {
+  background: #fff7fb;
+}
+
+body.dark-mode .chatbot-messages {
+  background: rgba(255, 255, 255, 0.92);
+}
+
+body.dark-mode .chatbot-title-wrap h2,
+body.dark-mode .chat-msg.bot {
+  color: #343746;
+}
+
+body.dark-mode .chatbot-form {
+  background: rgba(255, 252, 253, 0.98);
+}
+
+body.dark-mode .chatbot-form textarea {
+  background: #fff8fb;
+  color: #343746;
+}
+
+body.dark-mode .chatbot-form textarea::placeholder {
+  color: #798091;
+}
+
+@media (max-width: 1000px) {
+  body.dark-mode #navigation {
+    background: rgba(18, 25, 36, 0.95);
+    border-color: rgba(255, 44, 90, 0.32);
+  }
+}
